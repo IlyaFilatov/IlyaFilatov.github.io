@@ -32,7 +32,7 @@
     </div></div>
     
     <div class="aboutme">
-        <h1>ОБО МНЕ</h1>
+        <h2>ОБО МНЕ</h2>
         <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante
 facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.
 </h4>
@@ -42,7 +42,7 @@ facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commod
     </div>
     
     <div class="ican">
-        <h1>ЧТО Я УМЕЮ</h1>
+        <h2>ЧТО Я УМЕЮ</h2>
         <div class="list"><ul>
             <li>Веб-дизайн</li>
             <h4>Lorem ipsum dolor sit amet placerat
@@ -64,7 +64,7 @@ pellentesque natoque .</h4>
     </div>
     
     <div class="cases">
-        <h1>КЕЙСЫ</h1>
+        <h2>КЕЙСЫ</h2>
         <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed Dapibus leo nec ornare diamcoccodo nibh ante facilisis.</h4>
         <img src="img/%D1%84%D0%BE%D1%82%D0%BA%D0%B0.png" alt="Скриншот сайта" style="width: 1000px">
         <ul>
@@ -81,14 +81,23 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
     </div>
     
     <div class="calculator">
-        <h1>Рассчет стоимости</h1>
+        <h2>Рассчет стоимости</h2>
         <ul>
             <li>ТИП САЙТА</li>
-            <input type="text" placeholder="Выберите пункт...">
+            <select name="type_syte" id="">
+                <option value="opt1">Сайт-визитка</option>
+                <option value="opt2">Корпоративный веб-сайт</option>
+            </select>
             <li>ДИЗАЙН</li>
-            <input type="text" placeholder="Выберите пункт...">
+            <select name="design_syte" id="">
+                <option value="opt1">Дизайн1</option>
+                <option value="opt2">Дизайн2</option>
+            </select>
             <li>АДАПТИВНОСТЬ</li>
-            <input type="text" placeholder="Выберите пункт...">
+            <select name="adapt_syte" id="">
+                <option value="opt1">1</option>
+                <option value="opt2">2</option>
+            </select>
         </ul>
         
         <ul>
@@ -98,7 +107,7 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
     </div>
     
     <div class="stat">
-        <h1>НЕМНОГО СТАТИСТИКИ</h1>
+        <h2>НЕМНОГО СТАТИСТИКИ</h2>
         <ul>
             <li>120 <br> СЧАСТЛИВЫХ КЛИЕНТОВ</li>
             <li>4600 <br> ЧАСОВ РАБОТЫ</li>
@@ -108,7 +117,7 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
     </div>
     
     <div class="reviews">
-        <h1>ОТЗЫВЫ</h1>
+        <h2>ОТЗЫВЫ</h2>
         <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante
 facilisis bibendum dolor feugiat at duis sed dapidus leo nec ornare diam.</h4>
    
@@ -116,7 +125,7 @@ facilisis bibendum dolor feugiat at duis sed dapidus leo nec ornare diam.</h4>
     </div>
     
     <div class="contacts">
-        <h1>МОИ КОНТАКТЫ</h1>
+        <h2>МОИ КОНТАКТЫ</h2>
         
         <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leo nec ornare diamcoccodo </h5>
         <ul>
@@ -128,7 +137,7 @@ facilisis bibendum dolor feugiat at duis sed dapidus leo nec ornare diam.</h4>
         <input type="text" placeholder="Имя"> 
         <input type="text" placeholder="Email">
         <br>
-        <input type="text" placeholder="Сообщение" style="width: 325px">
+        <textarea name="text1" id="1" cols="30" rows="10" placeholder="Сообщение"></textarea>
         <br>
         <input type="submit" value="Отправить">
     </div>
